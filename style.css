@@ -36,7 +36,6 @@ main {
 .container {
     width: 300px; /* Example container width */
             height: 300px; /* Example container height */
-            border: 1px solid black;
             display: flex;
             justify-content: center;
             align-items: center;
