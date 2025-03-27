@@ -33,20 +33,15 @@ main {
     text-align: center;
     background: #8c92ac;
 }
-container {
+.container {
     display: flex;
     align-items: center;
 }
-.container image img{
-            width: 50px; /* Adjust size as needed */
-            height: auto;
-            margin-right: 20px; /* Space between image and text */
-        }
 
 .text {
     margin: 0 10px;
-   text-align: center
 }
+
 
 form {
     margin: 20px auto;
@@ -85,26 +80,21 @@ label, input, textarea {
     margin-top: 20px;
 }
 
-.slider {
-            display: flex;
-            overflow-x: auto;
-            scroll-snap-type: x mandatory;
-            gap: 20px;
-            width: 100%;
-        }
-        .slide {
-            min-width: calc(33.33% - 20px); /* Shows 3 at a time */
-            scroll-snap-align: start;
-            background-color: lightgrey;
-            padding: 20px;
-            border: 1px solid black;
-            text-align: center;
-        }
-.slide img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
+    .partners h2 {
+        color: #333;
+    }
+
+    .partners ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .partners li {
+        padding: 5px 0;
+        font-size: 18px;
+    }
+
+
 footer {
     background: #808080;
     color: black;
@@ -114,3 +104,17 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.map-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+    .map-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
