@@ -1,12 +1,14 @@
-const slider = document.querySelector('.slider-container');
-let scrollAmount = 0;
+let slideIndex = 0;
 
-document.getElementById('next').addEventListener('click', () => {
-    scrollAmount += 110; // Adjust based on image width and spacing
-    slider.scrollTo({ left: scrollAmount, behavior: 'smooth' });
-});
+function showSlides() {
+    const slides = document.querySelectorAll(".slide");
+    slides.forEach((slide) => (slide.style.display = "none"));
 
-document.getElementById('prev').addEventListener('click', () => {
-    scrollAmount -= 110; // Adjust based on image width and spacing
-    slider.scrollTo({ left: scrollAmount, behavior: 'smooth' });
-});
+    slideIndex++;
+    if (slideIndex > slides.length) slideIndex = 1;
+
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+
+showSlides();
