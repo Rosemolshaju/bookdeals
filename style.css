@@ -93,6 +93,22 @@ label, input, textarea {
         padding: 5px 0;
         font-size: 18px;
     }
+.slider {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            gap: 20px;
+            width: 100%;
+        }
+        .slide {
+            min-width: calc(33.33% - 20px); /* Shows 3 at a time */
+            scroll-snap-align: start;
+            background-color: lightgrey;
+            padding: 20px;
+            border: 1px solid black;
+            text-align: center;
+        }
+
 
 
 footer {
