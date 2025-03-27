@@ -108,9 +108,11 @@ label, input, textarea {
             border: 1px solid black;
             text-align: center;
         }
-
-
-
+.slide img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
 footer {
     background: #808080;
     color: black;
