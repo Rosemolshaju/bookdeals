@@ -12,3 +12,13 @@ function showSlides() {
 }
 
 showSlides();
+const partners = document.querySelector('.partners');
+let scrollPosition = 0;
+
+setInterval(() => {
+  scrollPosition -= 160; // Adjust based on image width + margin
+  if (Math.abs(scrollPosition) >= partners.offsetWidth) {
+    scrollPosition = 0;
+  }
+  partners.style.transform = `translateX(${scrollPosition}px)`;
+}, 2000);
