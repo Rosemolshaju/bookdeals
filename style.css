@@ -80,19 +80,6 @@ label, input, textarea {
     margin-top: 20px;
 }
 
-    .partners h2 {
-        color: #333;
-    }
-
-    .partners ul {
-        list-style-type: none;
-        padding: 0;
-    }
-
-    .partners li {
-        padding: 5px 0;
-        font-size: 18px;
-    }
 .slider {
             display: flex;
             overflow-x: auto;
