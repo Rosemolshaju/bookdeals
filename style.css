@@ -80,6 +80,39 @@ label, input, textarea {
 .slide {
     display: none;
 }
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.book-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+.book-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.book-card h2 {
+    color: #007bff;
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.book-card p {
+    color: #6c757d;
+}
 
 .partners {
     text-align: center;
