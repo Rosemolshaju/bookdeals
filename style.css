@@ -22,7 +22,7 @@ header {
 
 @media only screen and (max-width: 600px) {
     header .logo {
-        width: 70%; /* Resize for smaller screens */
+        width: 10%; /* Resize for smaller screens */
     }
 
    header{
