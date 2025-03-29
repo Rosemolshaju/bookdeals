@@ -14,10 +14,18 @@
         <nav>
             <a href="index.html">Home</a>
             <a href="contact.html">Contact</a>
+             <title>Form Submission</title>
+    <script>
+        function showConfirmation(event) {
+            event.preventDefault(); // Prevent the default form submission
+            document.getElementById("confirmation").innerText = "Done";
+        }
+    </script>
+
         </nav>
     </header>
     <main>
-         <h1>Enter Your Details</h1>
+        <h1>Enter Your Details</h1>
     <form action="http://localhost:5000/submit" method="post">
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
@@ -30,6 +38,7 @@
         
         <button type="submit">Submit</button>
     </form>
+ <p id="confirmation" style="color: green; font-weight: bold;"></p>
 
         <h3></h3>
         <img src="image.jpg" alt="Description of the image" width="300" height="200">
