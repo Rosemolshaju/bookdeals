@@ -51,6 +51,7 @@ main {
 }
 @media only screen and (max-width: 600px) {
 .container {
+    box-sizing: border-box;
     width: 90%;
     font-size: 14px;
   }
