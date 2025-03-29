@@ -28,7 +28,7 @@ def submit_details():
 
     # Send the email
     try:
-        sender_email = "impulesSharjah@gmail.com"  # Replace with sender's email
+        sender_email = "impulsesharjah@gmail.com"  # Replace with sender's email
         password = "Worstisthebest123"              # Use a secure method for storing passwords
         msg = MIMEText(body)
         msg['Subject'] = subject
