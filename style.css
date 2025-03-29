@@ -22,11 +22,11 @@ header {
 
 @media only screen and (max-width: 600px) {
     header .logo {
-        width: 10%; /* Resize for smaller screens */
+        width: 20%; /* Resize for smaller screens */
     }
 
    header{
-        font-size: 6vw; /* Larger font for readability */
+        font-size: 3vw; /* Larger font for readability */
     }
 }
 nav a {
@@ -61,7 +61,7 @@ label, input, textarea {
     display: block;
     width: 100%;
     margin-bottom: 10px;
-     background: #946f6a;
+     background: #8c92a;
 }
 .image-gallery {
     margin: 20px auto;
@@ -72,6 +72,7 @@ label, input, textarea {
     .image-gallery img {
         width: 100%;
         border-radius: 8px;
+        
     }
 
 .slideshow-container {
