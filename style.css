@@ -52,6 +52,13 @@ main {
 .text {
     margin: 0 10px;
 }
+@media screen and (max-width: 600px) {
+            .container {
+                padding: 10px; /* Adjust padding for small screens */
+            }
+            .text {
+                font-size: 14px; /* Reduce font size for smaller screens */
+            }
 
 
 form {
