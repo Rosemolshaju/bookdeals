@@ -53,7 +53,8 @@ main {
     .container {
     width: 100%; /* Adjust width for smaller screens */
     padding: 10px; /* Reduce padding */
-    background-color: #e0e0e0; /* Change background color */
+    background-color: none;
+ /* Change background color */
   }
 
   .text {
