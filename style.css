@@ -55,6 +55,11 @@ main {
     width: 90%;
     font-size: 14px;
   }
+    .text {
+    position: relative;
+    top: 100px; /* Moves text down */
+  }
+
 }
 
 form {
