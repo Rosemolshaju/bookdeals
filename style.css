@@ -49,7 +49,12 @@ main {
 .text {
     margin: 0 10px;
 }
-
+@media only screen and (max-width: 600px) {
+.container {
+    width: 90%;
+    font-size: 14px;
+  }
+}
 
 form {
     margin: 20px auto;
