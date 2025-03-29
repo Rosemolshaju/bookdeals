@@ -59,7 +59,7 @@ main {
 
   .text {
     font-size: 18px; /* Reduce font size */
-    text-align: left; /* Align text to the left */
+    text-align: center; /* Align text to the left */
     padding: 10px; /* Add padding around text */
   }
 
