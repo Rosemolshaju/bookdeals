@@ -44,9 +44,7 @@ main {
 .container {
     display: flex;
     align-items: center;
-      padding: 20px; /* Adds spacing around the text */
-            max-width: 100%; /* Prevents overflow */
-            box-sizing: border-box; /* Includes padding in width calculation */
+
 }
 
 .text {
