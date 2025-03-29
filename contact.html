@@ -10,25 +10,29 @@
 <body>
     <header>
         <h1>Contact Bookdeals Trading LLC.</h1>
-        <img src="C:\Users\user\source\repos\logo.png" alt="Logo" class="logo">
+        <img src="logo.png" alt="Logo" class="logo">
         <nav>
             <a href="index.html">Home</a>
             <a href="contact.html">Contact</a>
         </nav>
     </header>
     <main>
-        <h2>We'd love to hear from you!</h2>
-        <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-            <button type="submit">Send</button>
-        </form>
+         <h1>Enter Your Details</h1>
+    <form action="http://localhost:5000/submit" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="phone">Phone:</label><br>
+        <input type="text" id="phone" name="phone" required><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+
         <h3></h3>
-        <img src="C:\Users\user\source\repos\image.jpg" alt="Description of the image" width="300" height="200">
+        <img src="image.jpg" alt="Description of the image" width="300" height="200">
     </main>
     <footer>
         <p>&copy; Bookdeals Trading LLC.</p>
